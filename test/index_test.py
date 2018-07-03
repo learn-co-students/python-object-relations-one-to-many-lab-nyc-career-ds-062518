@@ -33,7 +33,7 @@ class TestOneToManyRelationships(unittest.TestCase):
         self.assertEqual(owner_1.age, 38)
 
     def test_driver_property_methods(self):
-        self.assertEqual(driver_1.name, "Dwight Schrute")
+        self.assertEqual(driver_1._name, "Dwight Schrute")
         self.assertEqual(driver_1.name, "Dwight Schrute")
 
     def test_car_property_methods(self):
